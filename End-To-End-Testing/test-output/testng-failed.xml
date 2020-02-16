@@ -5,9 +5,11 @@
     <classes>
       <class name="com.nop.uat.reg.testcases.TC001_LoginTest">
         <methods>
+          <include name="homeTest"/>
           <include name="setUp"/>
           <include name="loginTest"/>
           <include name="teardown"/>
+          <include name="validateloginTest"/>
         </methods>
       </class> <!-- com.nop.uat.reg.testcases.TC001_LoginTest -->
     </classes>
